@@ -7,8 +7,8 @@
     <ProjectGuid>{43211DDF-11FB-46E2-9DCB-ADD6222C3DFD}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Byt3.DesignPatterns</RootNamespace>
-    <AssemblyName>Byt3.DesignPatterns</AssemblyName>
+    <RootNamespace>en.AndrewTorski.Byt.Third.DesignPatterns</RootNamespace>
+    <AssemblyName>en.AndrewTorski.Byt.Third.DesignPatterns</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,12 +41,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\Concrete\AlarmedAfterDisarmingState.cs" />
+    <Compile Include="BLL\Concrete\AlarmedState.cs" />
+    <Compile Include="BLL\Concrete\ArmedState.cs" />
+    <Compile Include="BLL\Concrete\DisarmedState.cs" />
+    <Compile Include="BLL\Concrete\ListMediator.cs" />
+    <Compile Include="BLL\Concrete\SecurityAgent.cs" />
+    <Compile Include="BLL\Concrete\OneToManyMediatorDictionary.cs" />
+    <Compile Include="BLL\Concrete\PremiseSecurityWatcher.cs" />
+    <Compile Include="BLL\Concrete\SecurityRegion.cs" />
+    <Compile Include="BLL\Concrete\SilentlyAlarmedState.cs" />
+    <Compile Include="BLL\InterfaceAndBase\IColleague.cs" />
+    <Compile Include="BLL\InterfaceAndBase\IMediator.cs" />
+    <Compile Include="BLL\InterfaceAndBase\IMediatorDictionary.cs" />
+    <Compile Include="BLL\InterfaceAndBase\ISecurityState.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Byt3.DesignPatterns", "Byt3.DesignPatterns\Byt3.DesignPatterns.csproj", "{43211DDF-11FB-46E2-9DCB-ADD6222C3DFD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Byt.Third.DesignPatterns", "Byt3.DesignPatterns\Byt.Third.DesignPatterns.csproj", "{43211DDF-11FB-46E2-9DCB-ADD6222C3DFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
